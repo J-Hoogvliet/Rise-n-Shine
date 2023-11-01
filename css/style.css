@@ -1,0 +1,449 @@
+/*
+#352F44 b1
+#5C5470 b2
+#B9B4C7 b3
+#FAF0E6 beige
+#BA112A rood
+*/
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Exo+2:ital@1&family=Hind:wght@600&family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+ 
+/* Fonts en size */
+a {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1rem;
+}
+nav a {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1rem;
+}
+#navsec p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1rem;
+}
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 2.4rem;
+    margin: 0;
+    color: #FAF0E6;
+    font-size: 40px;
+}
+header p {
+    font-family: 'Hind', sans-serif;
+    font-size: 1.4rem;
+    color: #FAF0E6;
+}
+main p {
+    font-family: 'Hind', sans-serif;
+    font-size: 1rem;
+    color: #352F44;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.6rem;
+    color: #352F44;
+}
+#footer1 a {
+    font-family: 'Exo 2', sans-serif;
+    font-size: .8rem;
+}
+#footer1 p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: .8rem;
+}
+
+
+
+body {
+    margin: 0;
+    max-width: 100vw;
+    background-color: #FAF0E6;
+ 
+}
+
+/*Nav section*/
+#navsec {
+    background-color: #352F44;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw 0 0;
+    color: #FAF0E6;
+}
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4vw;
+}
+#navsec img {
+    display: flex;
+    justify-content: center;
+    margin-left: 4vw;
+    height: 10vh; 
+    padding: 2vh 0;
+}
+#navsec span {
+    border-bottom:solid #BA112A;
+}
+nav a{
+    margin-left: 2vw;
+    text-decoration: none;
+    color: #FAF0E6;
+    border: none;
+    padding: .7vh .8vw;
+    border-radius: 1vw;
+}
+nav a:hover {
+    background-color: #5C5470;
+    border-bottom: solid #BA112A;
+}
+
+/*Header home page*/
+#headerhome {
+    margin: 0;
+    background-image: linear-gradient(180deg, rgba(92, 84, 112, 0) 0, rgba(92, 84, 112, 0.6) 0), url(../images/daniele-levis-pelusi-88q5y8oHQto-unsplash.jpg);
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;     
+}
+.catch-phrase {
+    text-align: center;
+}
+#headerhome a {
+    background-color: #5C5470;
+    color: #FAF0E6;
+    text-decoration: none;
+    margin-top: .6vh;
+    border: 0;
+    padding: .7vh .8vw;
+    border-radius: 1vw;
+}
+#headerhome a:hover {
+    background-color: #FAF0E6;
+    color: #5C5470;
+    border-bottom: solid .5vh #BA112A;
+}
+
+/*Header Programmeren*/
+.program-header{
+    height: 65vh;
+    background-image: linear-gradient(180deg, rgba(92, 84, 112, 0) 0, rgba(92, 84, 112, 0.6) 0), url(../images/programmeer-code.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.program-header h1{
+    color: #FAF0E6;
+    text-align: center;
+    width: 100% ;
+    font-size: 4rem;
+}
+.behuizing-header {
+    height: 65vh;
+    background-image: linear-gradient(180deg, rgba(92, 84, 112, 0) 0, rgba(92, 84, 112, 0.6) 0), url(../images/20231031_141602.jpg);
+    background-size: cover;
+    
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.behuizing-header h1 {
+    color: #FAF0E6;
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+}
+
+
+
+/*Main content*/
+/*Home main */
+#mainhome a {
+    background-color: #5C5470;
+    color: #FAF0E6;
+    text-decoration: none;
+    border: none;
+    padding: .7vh .8vw;
+    border-radius: 1vw;
+}
+#mainhome h2 {
+    margin: 0;
+}
+#mainhome a:hover {
+    background-color: #FAF0E6;
+    color: #5C5470;
+    border-bottom: solid .5vh #BA112A;
+}
+#homecontainer {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.redstripe {
+    background-color: #BA112A;
+    padding-right: .3vw;
+    margin-top: -8vh;
+    padding-top: 28vh;
+    margin-left: -2vw;
+    margin-bottom: -8vh;
+    border-radius: 10vw;
+}
+.homecollum {
+    background-color: #B9B4C7;
+    padding: 10vh 0;
+    display: flex;
+    flex-direction: row;
+    max-height: 30vh;
+    align-items: center;
+    width: 70vw;
+    border-top-right-radius: 5vw;
+    border-bottom-right-radius: 5vw ;
+    }
+.homecollum span {
+    border-bottom: solid #BA112A;
+}
+.collumssource {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    margin-left: 1.8vw;
+    gap: 2vw;
+}
+.collumssource img {
+    height: 40vh;
+    margin: -10vh 0;
+}
+.homeleft {
+    margin-left: 10vw;
+}
+#homeleft1 {
+    margin-left: 21vw;
+}
+
+
+/*programmeren main*/
+.program-main{
+    margin: 0;
+    margin-top: -2vh;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+.program-product{
+    background-color: #B9B4C7;
+    width: 20vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    text-align: center;
+    padding: 5px;
+}
+.program-product:hover {
+    background-color: #FAF0E6;
+}
+.program-product:hover h2 {
+    display: none;
+    transition-duration: 0;
+}
+.program-product:hover p {
+    display: none;
+    transition-duration: 0;
+}
+.program-product:hover img {
+    width: fit-content;
+    height: 60vh;
+    transition-duration: 1s;
+    transition: all 1s ease;
+}
+.program-main img {
+    margin-top: -3vh;
+    width: 20vw;
+    height: 30vh;
+    transition: all 1s ease;
+}
+.program-product:hover .reddrop {
+    background-color: #BA112A;
+    border-radius: 10vw;
+    margin-top: -5vh;
+    margin-bottom: 7vh;
+    padding: .2vw 8vw;
+    transition-duration: .5s;
+}
+
+/* Product Header */
+.product-header {
+    height: 65vh;
+    background-image: linear-gradient(180deg, rgba(92, 84, 112, 0) 0, rgba(92, 84, 112, 0.6) 0), url(../images/20231031_163131.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Product Main */
+.product-main {
+    margin-left: 14vw;
+    display: flex;
+    flex-direction: column;
+    width: 72vw;    
+    align-content: center;
+    align-self: center;
+}
+/* Videoproduct */
+#product-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+/* Product foto's */
+#product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:6vh -10vw 0 -10vw;
+}
+#product-plaatjes {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    border-top: 10px solid #B9B4C7;
+    border-right: 10px solid #B9B4C7;
+    border-left: 10px solid #B9B4C7;
+    border-top-right-radius: 5vw;
+    border-top-left-radius: 5vw;
+    padding: 3vw;
+}
+#groot-product-plaatje img{
+    width: 30vw;
+    height: 88vh;
+    object-fit: fill;
+    transition: all 0.4s ease;
+}
+#groot-product-plaatje img:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+.klein-product-plaatjes {
+    display: flex;
+    gap: 2vw;
+}
+.klein-product-plaatjes img{
+    width: 15vw;
+    margin-bottom: 2vw;
+    transition: all 0.4s ease;
+}
+.klein-product-plaatjes img:hover {
+    transform: scale(1.15);
+    transition: all 0.4s ease;
+}
+#product-tekst {
+    background-color: #B9B4C7;
+    width: 72.3vw;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+   margin-bottom: 6vh;
+   margin-top: -3vh;
+   padding-bottom: 2vh;
+   border-bottom-left-radius: 5vw;
+border-bottom-right-radius: 5vw;
+}
+#Redstripe {
+    margin-top: 1vh;
+    background-color: #BA112A;
+    border-radius: 10vw; 
+    padding: 0 5vw 0 5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+}
+#Redstripe p {
+    color: #BA112A;
+    
+    font-size: .08rem;
+}
+#product-tekst h2 {
+    margin-bottom: 0;
+    align-self: center;
+}
+#product-tekst p {
+    align-self: center;
+}
+.product-paragraaf {
+    margin: 0 3.2vw 0 3.2vw;
+    padding: 2vh 2vh 2vh 0;
+    text-align: center;
+}
+
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    color: #FAF0E6;
+    background-color: #5C5470;
+    padding-top: 3vh;
+}
+footer p {
+    margin: 0;
+    margin-bottom: 1.3vh;
+}
+#footer1 {
+    margin-left: 4vw;
+}
+#footer1 a {
+    text-decoration: none;
+    color: #FAF0E6;
+}
+#footer2 a {
+    text-decoration: none;
+    color: #FAF0E6;
+    margin-left: 2vw;
+}
+#footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5vw;
+}
+#footer2 div {
+    display: flex;
+    align-items: center;
+}
+#footer2 img {
+    display: flex;
+    justify-content: center;
+    margin-left: 4vw;
+    height: 10vh;
+    padding: 2vh 0;
+}
+
